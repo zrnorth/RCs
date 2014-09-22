@@ -1,8 +1,23 @@
 These are my RC files for various things.
 
 I include a basic bashrc because i've had it for years, but nowadays I use oh-my-zsh.
-Search in up above to download it ^^. It saves a lot of time setting up console
-settings.
+Search in up above to download it ^^. It saves a lot of time setting up console settings.
 
 I've also included the colorscheme I use for OSX terminals. To use it, open 
 iTerm2, hit <Ctrl - i>, and import the file.
+
+Don't forget to download fixed powerline fonts. Inconsolata for Powerline
+is what I use. https://github.com/Lokaltog/powerline-fonts/
+
+Various plugins have been installed using Vundle. Again, search github for it.
+Setting up a new OSX installation would be as follows:
+1. Download and install Iterm2, MacVim, Homebrew, and npm (through homebrew).
+2. Get the various RC files here.
+3. Using the color scheme file, set up iTerm2 to use the correct colors.
+4. Download the powerline fonts for Inconsolata (or whatever font you like.) If you change the font from Inconsolata, make sure to change it in the bottom of the vimrc file.
+5. Get vundle using the following command:
+    $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+6. Download any linters you want for Syntastic. Right now just using javascript, JSHint. JSHint is installed using NPM.
+7. Open vim, and run :PluginInstall to install the various plugins.
+
+This should make it work.
