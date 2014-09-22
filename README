@@ -1,3 +1,8 @@
-There are my RC files that I use in new systems.
+These are my RC files for various things.
 
-They're real cool.
+I include a basic bashrc because i've had it for years, but nowadays I use oh-my-zsh.
+Search in up above to download it ^^. It saves a lot of time setting up console
+settings.
+
+I've also included the colorscheme I use for OSX terminals. To use it, open 
+iTerm2, hit <Ctrl - i>, and import the file.
