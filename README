@@ -9,15 +9,14 @@ iTerm2, hit <Ctrl - i>, and import the file.
 Don't forget to download fixed powerline fonts. Inconsolata for Powerline
 is what I use. https://github.com/Lokaltog/powerline-fonts/
 
-Various plugins have been installed using Vundle. Again, search github for it.
 Setting up a new OSX installation would be as follows:
 1. Download and install Iterm2, MacVim, Homebrew, and npm (through homebrew).
-2. Get the various RC files here.
-3. Using the color scheme file, set up iTerm2 to use the correct colors.
-4. Download the powerline fonts for Inconsolata (or whatever font you like.) If you change the font from Inconsolata, make sure to change it in the bottom of the vimrc file.
-5. Get vundle using the following command:
+2. Download oh-my-zsh and install it: curl -L http://install.ohmyz.sh | sh
+3. Get the various RC files here and put em in the right place (zshrc, vimrc).
+4. Using the color scheme file, set up iTerm2 to use the correct colors.
+5. Download the powerline fonts for Inconsolata (or whatever font you like.) If you change the font from Inconsolata, make sure to change it in the bottom of the vimrc file.
+6. Get vundle using the following command:
     $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-6. Download any linters you want for Syntastic. Right now just using javascript, JSHint. JSHint is installed using NPM.
-7. Open vim, and run :PluginInstall to install the various plugins.
+7. Download any linters you want for Syntastic. Right now just using javascript, JSHint. JSHint is installed using NPM. Put them in the vimrc file.
+8. Open vim, and run :PluginInstall to install the various plugins.
 
-This should make it work.
