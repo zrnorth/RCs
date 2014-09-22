@@ -13,7 +13,7 @@ Setting up a new OSX installation would be as follows:
 1. Download and install Iterm2, MacVim, Homebrew, and npm (through homebrew).
 2. Download oh-my-zsh and install it: curl -L http://install.ohmyz.sh | sh
 3. Get the various RC files here and put em in the right place (zshrc, vimrc).
-4. Using the color scheme file, set up iTerm2 to use the correct colors.
+4. Using the color scheme file, set up iTerm2 to use the correct colors. Set the font sizes to 19pt / 20pt non ASCII and adjust spacing (to fix theme)
 5. Download the powerline fonts for Inconsolata (or whatever font you like.) If you change the font from Inconsolata, make sure to change it in the bottom of the vimrc file.
 6. Get vundle using the following command:
     $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
