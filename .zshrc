@@ -1,3 +1,5 @@
+# I like macvim >.>
+alias vim=mvim
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -26,7 +28,7 @@ DEFAULT_USER="zrnorth"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -81,3 +83,6 @@ export PATH="/Users/zrnorth/.rvm/gems/ruby-2.1.1/bin:/Users/zrnorth/.rvm/gems/ru
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# This is added for better sync with Homebrew.
+export PATH=/usr/local/bin:$PATH
