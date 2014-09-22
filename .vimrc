@@ -77,7 +77,7 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 set bg=dark
-colorscheme desert
+colorscheme gruvbox
 
 " Gui stuff
 set guifont=Inconsolata\ for\ Powerline:h19

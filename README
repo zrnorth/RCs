@@ -20,3 +20,4 @@ Setting up a new OSX installation would be as follows:
 7. Download any linters you want for Syntastic. Right now just using javascript, JSHint. JSHint is installed using NPM. Put them in the vimrc file.
 8. Open vim, and run :PluginInstall to install the various plugins.
 
+I changed the theme to Gruvbox. Google it, it's pretty awesome.
