@@ -55,8 +55,6 @@ plugins=(git osx sudo common-aliases)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-export PATH="/Users/zrnorth/.rvm/gems/ruby-2.1.1/bin:/Users/zrnorth/.rvm/gems/ruby-2.1.1@global/bin:/Users/zrnorth/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/zrnorth/.rvm/bin:/Users/zrnorth/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
