@@ -1,3 +1,6 @@
+# Add VS Code to the path. Double check the path before uncommenting
+# export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 # Ensure that homebrew-installed files take precedent over apple defaults.
 export PATH=/usr/local/bin:$PATH
 
