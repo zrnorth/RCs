@@ -4,7 +4,7 @@ Steps for a new OSX installation:
 1. Get Homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 2. `brew install npm`
 3. `brew install git`
-4. Download Hyper: `https://hyper.is/`
+4. Download Hyper: `https://hyper.is/` and make sure to add `shell: 'zsh'` to the preferences file, otherwise it'll default to bash.
 5. Install the hyper-snazzy theme for hyper: `hyper install hyper-snazzy`
 6. Install the pure prompt: `npm install --global pure-prompt`
 7. Install the zsh-syntax-highlighting plugin: `brew install zsh-syntax-highlighting`. The brew installation location should already be sourced in the .zshrc file.
