@@ -5,11 +5,11 @@ Steps for a new OSX installation:
 2. Install iterm2 via brew.
 3. Go to iterm2 preferences and set appearance theme to Minimal.
 4. Go to iterm2 preferences > advanced and set tab outline to a smaller value.
-5. At https://iterm2colorschemes.com/, find a color scheme to use and curl it like this: (curl -Ls https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/lovelace.itermcolors > /tmp/lovelace.itermcolors && open /tmp/lovelace.itermcolors)
-6. Install zsh:  brew install zsh sudo vi /etc/shells and add /opt/homebrew/bin/zsh to the list chsh -s /opt/homebrew/bin/zsh
-7. Restart shell and check you’re in the homebrew zsh (echo $SHELL)
+5. At https://iterm2colorschemes.com/, find a color scheme to use and curl it like this: ` (curl -Ls https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/lovelace.itermcolors > /tmp/lovelace.itermcolors && open /tmp/lovelace.itermcolors)`
+6. Install zsh: ` brew install zsh ` then `sudo vi /etc/shells` and add `/opt/homebrew/bin/zsh` to the list. Then ` chsh -s /opt/homebrew/bin/zsh`
+7. Restart shell and check you’re in the homebrew zsh `(echo $SHELL)`
 8. Install oh-my-zsh and zplug via homebrew.
-9. brew install pure
+9. `brew install pure`
 10. Replace the generated .zshrc with the one in this file
 11. When prompted to install, hit yes, then close out the prompt and reopen.
 12. All set! Now you can install fonts, .vimrc, etc.
