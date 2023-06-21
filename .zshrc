@@ -1,15 +1,23 @@
-# Add VS Code to the path. Double check the path before uncommenting
-# export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# ~.zshrc
+export ZSH=~/.oh-my-zsh
 
-# Ensure that homebrew-installed files take precedent over apple defaults.
-export PATH=/usr/local/bin:$PATH
+# disable oh-my-zsh themes for pure prompt
+ZSH_THEME=""
+source $ZSH/oh-my-zsh.sh
 
-# Color the ls output by default.
-alias ls="ls -G"
+export ZPLUG_HOME=/opt/homebrew/opt/zplug
+source $ZPLUG_HOME/init.zsh
 
-# pure prompt options
-autoload -U promptinit; promptinit
-prompt pure
+zplug "mafredri/zsh-async", from:github
+zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
+zplug "zdharma/fast-syntax-highlighting", as:plugin, defer:2
+zplug "zsh-users/zsh-autosuggestions", as:plugin, defer:2
 
-# zsh-syntax-highlighting loading
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+zplug load
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
